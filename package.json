@@ -63,6 +63,8 @@
     ],
     "sideEffects": true,
     "type": "module",
+    "main": "dist/esm/index.mjs",
+    "module": "dist/esm/index.mjs",
     "exports": {
         "import": "./dist/esm/index.mjs",
         "require": "./dist/commonjs/index.cjs"
